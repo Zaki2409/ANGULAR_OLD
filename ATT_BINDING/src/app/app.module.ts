@@ -3,16 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {CompWithHostBindingComponent} from './comp-with-host-binding.component'
 
-@NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
+@NgModule({ declarations: [
+  AppComponent,
+  CompWithHostBindingComponent,
+
+  
+],
+imports: [
+  BrowserModule,
+  AppRoutingModule
+],
+providers: [],
+bootstrap: [AppComponent]})
+ 
+
 export class AppModule { }

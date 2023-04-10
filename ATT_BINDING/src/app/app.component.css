@@ -1,0 +1,23 @@
+.special {
+ background-color: black;
+ color: azure;
+ margin-bottom: 4cm;
+ padding: 1rem;   
+}
+
+.clearance {
+  border: 1 rem double blue;  
+}
+
+td {
+    padding: 1rem;
+    text-align: center;
+}
+h3{
+    padding: 1rem 0.75rem 0;
+}
+
+comp-with-host-binding {
+  display: block;
+  margin: 1rem 0;
+}
