@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ATT_BINDING": {
+    "PIPE": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/att-binding",
+            "outputPath": "dist/pipe",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ATT_BINDING:build:production"
+              "browserTarget": "PIPE:build:production"
             },
             "development": {
-              "browserTarget": "ATT_BINDING:build:development"
+              "browserTarget": "PIPE:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ATT_BINDING:build"
+            "browserTarget": "PIPE:build"
           }
         },
         "test": {
@@ -96,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "b1768139-2c32-4a7d-826c-e6f59622abed"
+    "analytics": "5c31a9ed-00ea-4d93-ad88-b0cf43270b56"
   }
 }
